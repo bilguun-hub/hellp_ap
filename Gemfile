@@ -25,4 +25,5 @@ group :test do
 end
 
 # Windows ではタイムゾーン情報用の tzinfo-data gem を含める必要があります
-# gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "tzinfo-data"
+#, platforms: [:mingw, :mswin, :x64_mingw, :jruby]
